@@ -1,0 +1,5 @@
+#python
+def send_follow_up(email, video_url, steps_progress):
+    message_body = f"Here's your personalized video: {video_url}\n\nAchieve your dream of becoming a {steps_to_succeed['goal']}, you can check on these steps we recommend: {steps_to_succeed['steps']}"
+  # Send email, SMS (use any email or SMS API like SendGrid)
+    send_email(email, message_body)
