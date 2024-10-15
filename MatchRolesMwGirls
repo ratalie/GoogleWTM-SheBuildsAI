@@ -1,0 +1,18 @@
+# Match Girls with Role Models
+
+def match_role_model(entities):
+    # Example role model database with aspirations mapped to profiles
+    role_models = {
+        "doctor": "Dr. Sarah Johnson",
+        "engineer": "Engineer Maria Garcia",
+        "artist": "Artist Sofia Zhang"
+    }
+    
+    # Match entities with role models
+    matched_role_model = None
+    for entity in entities:
+        if entity.name in role_models:
+            matched_role_model = role_models[entity.name]
+            break
+    
+    return matched_role_model
