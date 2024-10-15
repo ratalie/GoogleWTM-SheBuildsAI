@@ -3,7 +3,6 @@ def create_access_link(video_path):
     storage_client = storage.Client()
     bucket = storage_client.bucket('generated_videos')
     blob = bucket.blob(video_path)
-    
-    # Generate a public URL for the video
-    video_url = blob.generate_signed_url(expiration=timedelta(days=7), version="v4")
+    # Video URL
+    video_url = blob.generate_signed_url(expiration=timedelta(days=44), version="v4")
     return video_url
