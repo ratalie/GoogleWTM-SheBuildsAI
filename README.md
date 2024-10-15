@@ -32,6 +32,6 @@ Google Cloud Video Intelligence API to clips, and personalize it based on the gi
 # 6. Make the Video Available
 Google Cloud Storage and provide a downloadable link to the girl via a portal. Also, make sure the video can be accessed offline by giving an option for the girl to download it. https://github.com/ratalie/GoogleWTM-SheBuildsAI/blob/main/5-GenerateVideo
 # 7. Provide Guidance and Track Progress 
-Follow-up plan for each girl, detailing actionable steps to achieve their goals. This can be sent along with the video link, using email or an SMS integration with Google Cloud Messaging.
+Follow-up plan for each girl, detailing actionable steps to achieve their goals. This can be sent along with the video link, using email or an SMS integration with Google Cloud Messaging. https://github.com/ratalie/GoogleWTM-SheBuildsAI/blob/main/7-GuidanceProgress 
 
 
