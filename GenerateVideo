@@ -1,0 +1,23 @@
+# Generate the Inspirational Video
+# Google Cloud Video Intelligence API
+# python
+import google.cloud.video as video
+
+def generate_inspirational_video(matched_role_model, girl_data):
+    video_clip_path = f"gs://role_models_videos/{matched_role_model}.mp4"
+    
+    # Create a custom intro message
+    intro_text = f"Hi {girl_data['name']}, you dream of becoming a {girl_data['dream']}, meet {matched_role_model}, who's succeeded in that field!"
+    
+    # Combine intro, role model video, and custom outro
+    stitched_video = video.VideoStitcher()
+    stitched_video.add_intro_text(intro_text)
+    stitched_video.add_video_clip(video_clip_path)
+    stitched_video.add_outro_text("Believe in yourself and keep going!")
+    
+    # Export the video
+    output_video_path = f"gs://generated_videos/{girl_data['name']}_inspirational_video.mp4"
+    stitched_video.export(output_video_path)
+    
+    return output_video_path
+
