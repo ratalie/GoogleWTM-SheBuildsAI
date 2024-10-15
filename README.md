@@ -22,6 +22,7 @@ Google Forms to collect data from girls. The form collects the following informa
 - Any background information (text, video, or handwriting).
 - Country, age, and language preference.
 Integrate the form with Google Sheets to store responses and set up a trigger that runs whenever a new form is submitted.
+https://github.com/ratalie/GoogleWTM-SheBuildsAI/blob/main/2-CollectData
 # 3. Gemma Multimodal
 Gemma to process the different types of data (text, video, handwriting). Prepare a pipeline to handle the multi-modal input. https://github.com/ratalie/GoogleWTM-SheBuildsAI/blob/main/3-gemma-multimodal
 # 4. Match Girls with Role Models
