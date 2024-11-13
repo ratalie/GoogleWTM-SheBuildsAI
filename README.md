@@ -3,6 +3,11 @@ Google's Women Techmakers presents She Builds AI
 # Project Description:
 This project aims to inspire and empower young girls--k12 levels, by creating personalized motivational videos, tailored to their dreams and professional aspirations. Girls from around the world submit their career goals, backgrounds, and personal stories. The platform process these submissions from text, video, and handwritten, matches them with a role model from a diverse pre-existing database, and generates a personalized, one-minute inspirational video.
 
+  <a href="https://youtu.be/kpi0iISghGU">
+    <img src="images/333.png" alt="NFT">
+  </a>
+
+
 The project addresses gender inequality by:
 
 - Providing girls in remote or underserved communities access to powerful role models, regardless of geographic barriers!
@@ -34,5 +39,6 @@ Google Cloud Video Intelligence API to clips, and personalize it based on the gi
 Google Cloud Storage and provide a downloadable link to the girl via a portal. Also, make sure the video can be accessed offline by giving an option for the girl to download it. https://github.com/ratalie/GoogleWTM-SheBuildsAI/blob/main/5-GenerateVideo
 # 7. Provide Guidance and Track Progress 
 Follow-up plan for each girl, detailing actionable steps to achieve their goals. This can be sent along with the video link, using email or an SMS integration with Google Cloud Messaging. https://github.com/ratalie/GoogleWTM-SheBuildsAI/blob/main/7-GuidanceProgress 
+
 
 
