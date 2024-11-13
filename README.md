@@ -4,7 +4,7 @@ Google's Women Techmakers presents She Builds AI
 This project aims to inspire and empower young girls--k12 levels, by creating personalized motivational videos, tailored to their dreams and professional aspirations. Girls from around the world submit their career goals, backgrounds, and personal stories. The platform process these submissions from text, video, and handwritten, matches them with a role model from a diverse pre-existing database, and generates a personalized, one-minute inspirational video.
 
   <a href="https://youtu.be/kpi0iISghGU">
-    <img src="images/333.png" alt="NFT">
+    <img src="333.png" alt="Demo">
   </a>
 
 
